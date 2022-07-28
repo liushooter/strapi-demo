@@ -10,11 +10,14 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@artcoded/strapi-plugin-github-projects": "^1.0.5",
     "@strapi/plugin-i18n": "4.3.0",
     "@strapi/plugin-users-permissions": "4.3.0",
     "@strapi/strapi": "4.3.0",
     "better-sqlite3": "7.4.6",
-    "fsevents": "^2.3.2"
+    "fsevents": "^2.3.2",
+    "global": "^4.4.0",
+    "nrm": "^1.2.5"
   },
   "author": {
     "name": "A Strapi developer"
