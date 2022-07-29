@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web3dailies",
+  "info": {
+    "singularName": "web3daily",
+    "pluralName": "web3dailies",
+    "displayName": "web3daily",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "time": {
+      "type": "date"
+    },
+    "url": {
+      "type": "string"
+    },
+    "introduce": {
+      "type": "text"
+    },
+    "episode": {
+      "type": "string"
+    }
+  }
+}
